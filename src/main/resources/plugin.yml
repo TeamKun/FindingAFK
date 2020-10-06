@@ -1,0 +1,14 @@
+name: FindingAFK
+version: ${project.version}
+main: net.teamfruit.findingafk.FindingAFK
+api-version: 1.15
+
+commands:
+  finddeath:
+    description: リスポせず放置勢リスト表示
+    usage: /finddeath
+    permission: finddeath
+permissions:
+  finddeath:
+    description: Find Death
+    default: op
