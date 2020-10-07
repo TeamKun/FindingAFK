@@ -8,6 +8,10 @@ commands:
     description: リスポせず放置勢リスト表示
     usage: /finddeath
     permission: finddeath
+  finddeathtest:
+    description: リスポせず放置勢リスト表示
+    usage: /finddeathtest
+    permission: finddeath
 permissions:
   finddeath:
     description: Find Death
